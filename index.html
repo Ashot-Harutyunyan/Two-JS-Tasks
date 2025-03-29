@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+   <div class="container-task-one-description">
+       <p>Video with description of the task</p>
+       <iframe
+               width="560"
+               height="315"
+               src="https://www.youtube.com/embed/0vpjN3C_TSU?si=uwxj7KZ-irgs2rFH"
+               title="YouTube video player"
+               frameborder="0"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+               referrerpolicy="strict-origin-when-cross-origin"
+               allowfullscreen
+       ></iframe>
+   </div>
+
+    <div class="main">
+        <div class="container">
+            <h2>CONSTRUCTOR</h2>
+            <h2>RESULT</h2>
+            <div class="box" id="constructor"></div>
+            <div class="box" id="target"></div>
+        </div>
+
+        <div class="controls">
+            <select name="" id="type">
+                <option value="div">DIV</option>
+                <option value="h1">H1</option>
+                <option value="input">INPUT</option>
+                <option value="span">SPAN</option>
+                <option value="p">Paragraph</option>
+            </select>
+            <input type="hidden" id="hidden">
+            <button id="create">Create</button>
+        </div>
+    </div>
+
+<!------------------------------------------------------------------->
+
+                  <!-- Task Elevator -->
+
+   <div class="container-task-two-description">
+       <p>
+           Task Elevator <br><br>
+           There are three elevators and 20 floors in the building, people on each floor can order an elevator. <br><br>
+           When ordering an elevator, move the elevator as close as possible to the floor where the elevator was ordered.
+           <br><br>
+           Example rules: <br><br>
+           1. If the yellow person on the 6th floor orders an elevator, <br><br>
+           elevator 2 will move to the 6th floor. <br><br>
+           2. If the person on the 3rd floor orders an elevator, there are two <br><br>
+           options, one of the elevators on the 1st and 3rd floors can move <br><br>
+           • You can click on each floor or person, and the elevators will move accordingly. <br><br>
+           • The elevators must move to the desired floor, people do not move. <br><br>
+       </p>
+   </div>
+
+    <div class="task-elevator">
+        <h1 class="title">Building</h1>
+        <div class="building">
+            <div class="elevator">
+                <div class="elevator1">elevator 1</div>
+                <div class="elevator2">elevator 2</div>
+                <div class="elevator3">elevator 3</div>
+            </div>
+            <div class="floor"></div>
+        </div>
+    </div>
+
+</body>
+</html>
